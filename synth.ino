@@ -20,5 +20,4 @@ void loop() {
     Serial.println("The button is unpressed");
     digitalWrite(BUZZER_PIN, LOW);  // turn off
   }
-delay(1000);
 }
